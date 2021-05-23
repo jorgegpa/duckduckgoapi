@@ -1,0 +1,17 @@
+{
+  "name": "automationapi",
+  "version": "1.0.0",
+  "description": "automation duckduck go",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.js"
+  },
+  "author": "Jorge Gonzalez Pliego",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "node-duckduckgo": "^2.0.17"
+  }
+}
